@@ -1,0 +1,1 @@
+for /f "delims=" %%i in ('dir /b /a-d /s *.ui') do pyuic5 %%i -o %%i.py
